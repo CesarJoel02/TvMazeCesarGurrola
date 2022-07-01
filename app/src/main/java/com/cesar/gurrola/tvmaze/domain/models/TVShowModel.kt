@@ -1,11 +1,11 @@
 package com.cesar.gurrola.tvmaze.domain.models
 
 data class TVShowModel(
-    val _links: Links,
+    val _links: TvShowLinksModel,
     val averageRuntime: Int,
     val dvdCountry: Any,
     val ended: String,
-    val externals: Externals,
+    val externals: TvShowExternalsModel,
     val genres: List<String>,
     val id: Int,
     val image: TvShowImageModel,

@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/TvShowListFragment"
+    >
+
+
+    <fragment
+        android:id="@+id/TvShowListFragment"
+        android:name="com.cesar.gurrola.tvmaze.TvMazeListFragment"
+        android:label="TvMazeListFragment"
+        tools:layout="@layout/fragment_tv_maze_list">
+
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/TvShowDetailFragment"
+        android:name="com.cesar.gurrola.tvmaze.TvMazeDetailFragment"
+        android:label="TvMazeDetailFragment"
+        tools:layout="@layout/fragment_tv_maze_detail">
+
+
+
+    </fragment>
 
 </navigation>

@@ -1,5 +1,6 @@
 package com.cesar.gurrola.tvmaze.domain.respository
 
+import com.cesar.gurrola.tvmaze.domain.models.TvShowCastModel
 import com.cesar.gurrola.tvmaze.domain.models.TvShowDetailModel
 import com.cesar.gurrola.tvmaze.domain.models.TvShowsListDataModel
 import io.reactivex.Observable
@@ -24,5 +25,10 @@ interface ApiService {
     fun getShowDetail(
         @Path("id") id : Int
     ): Observable<TvShowDetailModel>
+
+    @GET("shows/{id}/cast")
+    fun getTvShowCast(
+        @Path("id")id: Int
+    ): Observable<TvShowCastModel>
 
 }
