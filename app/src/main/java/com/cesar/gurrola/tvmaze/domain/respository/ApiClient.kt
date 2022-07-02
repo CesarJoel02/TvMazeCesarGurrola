@@ -20,5 +20,9 @@ class ApiClient {
         return apiClient.create(ApiService::class.java)
     }
 
+    fun provideTvDetailService(): ApiService {
+        return apiClient.create(ApiService::class.java)
+    }
+
 
 }

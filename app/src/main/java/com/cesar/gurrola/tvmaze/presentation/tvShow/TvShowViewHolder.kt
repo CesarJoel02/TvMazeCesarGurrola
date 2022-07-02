@@ -1,4 +1,4 @@
-package com.cesar.gurrola.tvmaze.presentation
+package com.cesar.gurrola.tvmaze.presentation.tvShow
 
 import android.content.Context
 import android.util.Log

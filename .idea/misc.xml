@@ -5,9 +5,14 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.44550898203592815" />
+        <entry key="app/src/main/res/layout/fragment_tv_maze_detail.xml" value="0.484375" />
         <entry key="app/src/main/res/layout/fragment_tv_maze_list.xml" value="0.44550898203592815" />
+        <entry key="app/src/main/res/layout/search_toolbar.xml" value="0.484375" />
+        <entry key="app/src/main/res/layout/talento_item.xml" value="0.562874251497006" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.484375" />
         <entry key="app/src/main/res/layout/tvshow_item.xml" value="0.44550898203592815" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.484375" />
+        <entry key="app/src/main/res/menu/search_menu.xml" value="0.484375" />
       </map>
     </option>
   </component>

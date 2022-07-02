@@ -7,7 +7,7 @@ data class TVShowModel(
     val ended: String,
     val externals: TvShowExternalsModel,
     val genres: List<String>,
-    val id: Int,
+    val id: Int?,
     val image: TvShowImageModel,
     val language: String,
     val name: String,

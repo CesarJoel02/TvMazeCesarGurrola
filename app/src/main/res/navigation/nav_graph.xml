@@ -13,6 +13,15 @@
         android:label="TvMazeListFragment"
         tools:layout="@layout/fragment_tv_maze_list">
 
+        <action
+            android:id="@+id/action_fragment_tvShowList_to_fragment_tvShowDetail"
+            app:destination="@id/TvShowDetailFragment"/>
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <argument
+            android:name="url"
+            app:argType="string" />
 
 
     </fragment>

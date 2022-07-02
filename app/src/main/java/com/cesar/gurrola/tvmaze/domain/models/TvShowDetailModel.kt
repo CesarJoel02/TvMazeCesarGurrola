@@ -6,7 +6,7 @@ data class TvShowDetailModel(
     val dvdCountry: Any,
     val ended: Any,
     val externals: TvShowExternalsModel,
-    val genres: List<Any>,
+    val genres: List<String>,
     val id: Int,
     val image: TvShowImageModel,
     val language: String,
